@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+
+
+/* Configurações básicas */
+
+h1, p, a, ul{
+  margin:0px;
+  padding: 0px;
+}
+
+img{
+  max-width: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f7f7f7;
+  display: grid;
+  gap: 60px;
+  justify-items: center;
+  margin-top: 60px;
+}
