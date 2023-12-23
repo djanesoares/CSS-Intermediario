@@ -1,27 +1,137 @@
 @charset "UTF-8";
 
+.menu{
+  display: flex;
+  flex-wrap: wrap;
+  background: #f7f7f7;
+  gap: 20px;
+  justify-content: center;
+   
+}
+
+.menu a{
+  background: white;
+  font-size: 20px;
+  padding: 15px 30px;
+  color: #000000;
+  border-radius: 4px;
+  text-transform: uppercase;
+ 
+}
+
+.conteudo{
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.introducao{
+  background: #fff;
+  padding: 40px;
+  text-align: right;
+  position: relative;
+  display: grid;
+  gap: 20px;
+  align-content: center;
+  justify-items: end;
+}
+
+.botao{
+  background: #e21;
+  padding: 15px 30px;
+  color: #fff;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.detalhe{
+  width: 60px;
+  height: 4px;
+  background-color: #e21;
+  position: absolute;
+  top: 30px;
+  right: -30px;
+
+}
+
+.subtitulo{
+  font-size: 64px;
+  text-transform: uppercase;
+  color: rgba(0,0,0,0.2);
+  text-align: right;
+  padding: 40px;
+  align-self: center;
+}
+
+.vantagens{
+  background: #fff;
+  padding: 40px;
+
+}
+
+.vantagens-item{
+  display: grid;
+  grid-template-columns: auto 1fr ;
+  gap: 10px 20px;
+  padding: 20px;
+}
+
+.vantagens-item p{
+  grid-column:2;
+  
+}
+
+.rodape{
+  background: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
 
 
 /* Configurações básicas */
 
-h1, p, a, ul{
+h1,h2,h3, p{
   margin:0px;
   padding: 0px;
 }
 
 img{
   max-width: 100%;
+  display: block;
 }
 
 a{
   text-decoration: none;
 }
 
+h1{
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+h3{
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  font-weight: bold;
+}
+
 body{
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
   background: #f7f7f7;
   display: grid;
   gap: 60px;
   justify-items: center;
   margin-top: 60px;
+}
+
+
+p{
+  font-size: 20px;
+  line-height: 1.3;
 }
